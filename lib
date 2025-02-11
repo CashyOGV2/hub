@@ -95,7 +95,7 @@ library.themes = {
         }
     },
     {
-        name = 'Informant_V1',
+        name = 'Cash Hub',
         theme = {
             ['Accent']                    = fromrgb(103,89,179);
             ['Background']                = fromrgb(22,22,31);
@@ -4482,7 +4482,7 @@ function library:init()
         self.watermark = {
             objects = {};
             text = {
-                {"informant.wtf", true},
+                {"Cash Hub", true},
                 {"V"..getgenv().Config.Version, true},
                 {getgenv().luaguardvars.DiscordName, true},
                 {'0 fps', true},
